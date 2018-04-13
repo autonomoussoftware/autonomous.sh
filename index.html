@@ -102,15 +102,20 @@
           mesh:{
             ambient: 'rgba(9, 39, 73, 1)',
             diffuse: 'rgba(255, 255, 255, 1)',
-            background: 'rgb(9, 39, 73)'
+            background: 'rgb(9, 39, 73)',
+            speed: 0.000025,
+            fluctuationSpeed: 0.025
           }, 
           lights: [{
             ambient: 'rgba(10, 4, 100, 1)',
-            diffuse: 'rgba(8, 52, 203, 1)'
+            diffuse: 'rgba(8, 52, 203, 1)',
+            speed: 0.0000015,
+            dampening: 0.25
           }], 
           line: {
           }, vertex: {
-            
+            fluctuationSpeed: 0.000025,
+            fluctuationIntensity: 0.00000000001
           }});
       });
     </script>
